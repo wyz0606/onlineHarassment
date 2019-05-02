@@ -13,6 +13,7 @@
         var introduction = doc.data().introduction;
         var subtitle = doc.data().subtitle;
         var time = doc.data().time;
+        var a = doc.data().a;
 
         var container = $('<div></div>');
         var box1 = $('<div></div>');
@@ -20,6 +21,8 @@
         var name = $('<h1></h1>');
         var lifetime = $('<p></p>');
         var head = $('<h1></h1>');
+        var link = $('<a></a>');
+        var linkImg = $('<img>');
         var brief = $('<p></p>');
 
         container.addClass("container");
@@ -28,6 +31,9 @@
         name.addClass("name");
         lifetime.addClass("time");
         head.addClass("brief");
+        link.attr("href", a);
+        linkImg.addClass("linkImage");
+        linkImg.attr("src", "./image/link.png");
         brief.addClass("briefIntro");
 
         console.log(time);
@@ -53,6 +59,8 @@
           });
 
         box2.append(head);
+        box2.append(link);
+        box2.append(linkImg);
         box2.append(brief);
         container.append(box1);
         container.append(box2);

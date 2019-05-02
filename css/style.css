@@ -224,6 +224,14 @@ html, body{
 	margin-top: 10px;
 }
 
+.linkImage{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 46px;
+	margin-top: 10px;
+}
+
 .briefIntro{
 	font-size: 34px;
 	line-height: 1.5;
