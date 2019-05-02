@@ -2,6 +2,7 @@ html, body{
 	margin: 0;
 	padding: 0;
 	font-family: "Calibri", sans-serif;
+	color: #264d73;
 }
 
 #firstBK{
@@ -168,6 +169,12 @@ html, body{
 
 #thirdBK{
 	padding: 10vw 0;
+}
+
+#cases{
+	text-align: center;
+	font-size: 96px;
+	margin-top: 0vw;
 }
 
 .container{
