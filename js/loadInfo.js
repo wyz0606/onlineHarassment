@@ -59,8 +59,8 @@
           });
 
         box2.append(head);
+        link.append(linkImg);
         box2.append(link);
-        box2.append(linkImg);
         box2.append(brief);
         container.append(box1);
         container.append(box2);
