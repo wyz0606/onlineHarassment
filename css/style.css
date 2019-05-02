@@ -12,7 +12,11 @@ html, body{
 
 }
 
-#title{
+
+
+/*mobile*/
+@media screen and (max-device-width: 500px) and (orientation: portrait){
+	#title{
 	/*position: absolute;
 	left: 50%;
 	top: 30%;
@@ -125,4 +129,5 @@ html, body{
 	line-height: 2;
 	color: #264d73;
 	margin-top: 20px;
+}
 }
