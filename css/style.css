@@ -173,7 +173,7 @@ html, body{
 
 #cases{
 	text-align: center;
-	font-size: 96px;
+	font-size: 86px;
 	margin-top: 0vw;
 }
 
@@ -205,7 +205,7 @@ html, body{
 .image{
 	margin-left: 50%;
 	transform: translate(-50%);
-	width: 85%;
+	width: 80%;
 }
 
 .name{
@@ -215,7 +215,7 @@ html, body{
 }
 
 .time{
-	margin-top: 10px;
+	margin-top: 0px;
 	font-size: 34px;
 }
 
