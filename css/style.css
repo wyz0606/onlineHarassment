@@ -128,7 +128,7 @@ html, body{
 }
 
 /*mobile*/
-@media screen and (max-device-width: 500px) and (orientation: portrait){
+@media screen and (max-device-width: 700px) and (orientation: portrait){
 #title{
 	padding-top: 10vh;
 	font-size: 96px;
