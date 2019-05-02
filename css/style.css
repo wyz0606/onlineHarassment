@@ -135,7 +135,8 @@ html, body{
 }
 
 #subtitle{
-	font-size: 36px;
+	font-size: 40px;
+	line-height: 1.5;
 	margin: 10px 20% !important;
 }
 
@@ -157,7 +158,8 @@ html, body{
 
 .data{
 	margin-top: 50px;
-	font-size: 36px;
+	font-size: 40px;
+	line-height: 1.5;
 	width: 70%;
 	margin-left: 50%;
 	transform: translate(-50%);
@@ -200,25 +202,25 @@ html, body{
 }
 
 .name{
-	margin-top: 10px;
+	margin-top: 15px;
 	margin-bottom: 0;
-	font-size: 36px;
+	font-size: 40px;
 }
 
 .time{
 	margin-top: 10px;
-	font-size: 28px;
+	font-size: 34px;
 }
 
 .brief{
-	font-size: 36px;
+	font-size: 48px;
 	top: 5px;
 }
 
 .briefIntro{
-	font-size: 28px;
-	line-height: 2;
+	font-size: 34px;
+	line-height: 1.5;
 	color: #264d73;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 }
