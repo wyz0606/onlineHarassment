@@ -215,13 +215,13 @@ html, body{
 }
 
 .time{
-	margin-top: 0px;
+	margin-top: 5px;
 	font-size: 34px;
 }
 
 .brief{
 	font-size: 48px;
-	top: 5px;
+	margin-top: 10px;
 }
 
 .briefIntro{
