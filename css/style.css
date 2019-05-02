@@ -12,11 +12,7 @@ html, body{
 
 }
 
-
-
-/*mobile*/
-@media screen and (max-device-width: 500px) and (orientation: portrait){
-	#title{
+#title{
 	/*position: absolute;
 	left: 50%;
 	top: 30%;
@@ -32,7 +28,7 @@ html, body{
 	/*position: absolute;*/
 	text-align: center;
 	font-size: 20px;
-	margin: 10px 15% !important;
+	margin: 10px 15%;
 	color: #264d73;
 }
 
@@ -126,6 +122,101 @@ html, body{
 
 .briefIntro{
 	font-size: 12px;
+	line-height: 2;
+	color: #264d73;
+	margin-top: 20px;
+}
+
+/*mobile*/
+@media screen and (max-device-width: 500px) and (orientation: portrait){
+#title{
+	padding-top: 10vh;
+	font-size: 96px;
+}
+
+#subtitle{
+	font-size: 36px;
+	margin: 10px 20% !important;
+}
+
+#secondBK{
+	padding-bottom: 23vw;
+}
+
+.infography{
+	width: 80%;
+	height: 620px;
+	margin-top: 20vw;
+}
+
+.infoimg{
+	width: 60%;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+
+.data{
+	margin-top: 50px;
+	font-size: 36px;
+	width: 70%;
+	margin-left: 50%;
+	transform: translate(-50%);
+	/*display: block;*/
+}
+
+#thirdBK{
+	padding-top: 10vw;
+}
+
+.container{
+	width: 85vw;
+	height: 45vw;
+	margin:10vw auto 0px;
+	/*background-color: red;*/
+}
+
+#box1{
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+	margin-left: 20px;
+	/*background-color: green;*/
+}
+
+#box2{
+	display: inline-block;
+	position: absolute;
+	margin-left: 6%;
+	margin-top: 0;
+	width: 41%;
+	height: 50vw;
+	/*background-color: yellow;*/
+}
+
+.image{
+	margin-left: 50%;
+	transform: translate(-50%);
+	width: 85%;
+}
+
+.name{
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 36px;
+}
+
+.time{
+	margin-top: 10px;
+	font-size: 28px;
+}
+
+.brief{
+	font-size: 36px;
+	top: 5px;
+}
+
+.briefIntro{
+	font-size: 28px;
 	line-height: 2;
 	color: #264d73;
 	margin-top: 20px;
