@@ -131,14 +131,14 @@ html, body{
 /*mobile*/
 @media screen and (max-device-width: 1000px) and (orientation: portrait){
 #title{
-	padding-top: 10vh;
+	padding-top: 9vh;
 	font-size: 96px;
 }
 
 #subtitle{
 	font-size: 40px;
 	line-height: 1.5;
-	margin: 10px 20% !important;
+	margin: 0px 20% 10px !important;
 }
 
 #secondBK{
