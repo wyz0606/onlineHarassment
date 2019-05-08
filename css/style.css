@@ -35,25 +35,39 @@ html, body{
 
 #secondBK{
 	width: 100vw;
-/*	height: 300px;*/
+	height: 38vw;
 	background-color: white;
 	position: relative;
 	padding-bottom: 60px;
 }
 
 .infography{
-	width: 80%;
-	height: 280px;
-	display: block;
-	margin-left: 50vw;
-	transform: translate(-50%);
+	width: 20vw;
+	display: inline-block;
 	margin-top: 50px;
 }
 
-.infoimg{
-	width: 60%;
-	margin-left: 50%;
+#info1{
+	position: absolute;
+	left: 10vw;
+}
+
+#info2{
+	position: absolute;
+	left: 50vw;
 	transform: translate(-50%);
+}
+
+#info3{
+	position: absolute;
+	right: 10vw;
+}
+
+.infoimg{
+
+	width: 100%;
+	margin-top: 50px;
+	/*display: inline-block;*/
 }
 
 .data{
@@ -66,19 +80,30 @@ html, body{
 #thirdBK{
 	width: 100vw;
 	background-color: #ffdd99;
-	padding-top: 40px;
+	padding: 100px 10vw;
+	position: relative;
+	overflow: auto;
+}
+
+#cases{
+	text-align: center;
+	
+	font-size: 40px;
+	margin: 0;
 }
 
 .container{
-	width: 85vw;
-	height: 50vw;
-	margin:20px auto 0px;
+	width: calc(80vw / 2);
+	/*height: 50vw;*/
+	
+	position: relative;
+	margin-top: 100px;
 	/*background-color: red;*/
 }
 
 #box1{
 	display: inline-block;
-	width: 35%;
+	width: 40%;
 	height: 100%;
 	/*background-color: green;*/
 }
@@ -86,10 +111,10 @@ html, body{
 #box2{
 	display: inline-block;
 	position: absolute;
-	margin-left: 8%;
+	margin-left: 6%;
 	margin-top: 0;
-	width: 47%;
-	height: 50vw;
+	width: 41%;
+	height: 100%;
 	/*background-color: yellow;*/
 }
 
@@ -101,54 +126,165 @@ html, body{
 
 .name{
 	text-align: center;
-	margin-top: 10px;
-	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-size: 32px;
 	font-weight: bold;
 	color: #264d73;
 }
 
 .time{
 	text-align: center;
-	margin-top: 0px;
-	font-size: 12px;
+	margin-top: 20px;
+	font-size: 20px;
 	color: #264d73;
 }
 
 .brief{
-	font-size: 22px;
+	font-size: 36px;
 	font-weight: bold;
 	color: #264d73;
 	margin: 0;
 }
 
 .briefIntro{
-	font-size: 12px;
-	line-height: 2;
+	width: 100%;
+	font-size: 20px;
+	line-height: 1.5;
 	color: #264d73;
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
+.linkImage{
+	position: absolute;
+	right: 0;
+	top: 0;
+	margin-top: 5px;
+	width: 30px;
+}
+
+
+@media(min-width: 1200px){
+	.briefIntro{
+	
+	/*font-size: 22px;*/
+	
+}
+.container{
+	float: left;
+}
+
+#cases{
+	width: 80%;
+}
+}
+
+
+
+@media (min-width: 950px) and (max-width: 1200px){
+  
+.name{
+	/*font-size: 22px;*/
+
+}
+
+.brief{
+	/*font-size: 32px;*/
+}
+
+.linkImage{
+	width: 25px;
+}
+
+.briefIntro{
+	
+	/*font-size: 18px;*/
+	
+}
+.container{
+	float: left;
+}
+
+#cases{
+	width: 80%;
+}
+
+}
+
+@media (max-width: 950px) {
+.container{
+	width: 80vw;
+	/*float: left;*/
+}
+
+.name{
+	/*font-size: 26px;*/
+
+}
+
+.brief{
+	/*font-size: 38px;*/
+}
+
+.linkImage{
+	width: 25px;
+}
+
+.briefIntro{
+	
+	/*font-size: 26px;*/
+	
+}
+
+#cases{
+	width: 80%;
+}
+}
+
+
 /*mobile*/
-@media screen and (max-device-width: 1000px) and (orientation: portrait){
+@media only screen and (orientation: portrait){
+
+#firstBK{
+	height: 50vw;
+}
 #title{
-	padding-top: 9vh;
-	font-size: 96px;
+	padding-top: 14vw;
+	font-size: 6em;
 }
 
 #subtitle{
-	font-size: 40px;
+	font-size: 2.5em;
 	line-height: 1.5;
 	margin: 0px 20% 10px !important;
 }
 
 #secondBK{
-	padding-bottom: 23vw;
+	padding-bottom: 10vw;
+	padding-top: 10vw;
+	height: auto;
 }
 
 .infography{
 	width: 80%;
-	height: 620px;
-	margin-top: 20vw;
+	/*height: 620px;*/
+	margin-top: 0 !important;
+	display: block;
+}
+
+#info1{
+	position: relative;
+}
+
+#info2{
+	position: relative;
+
+}
+
+#info3{
+	position: relative;
+	left: 10vw;
+	margin-top: 20px;
 }
 
 .infoimg{
@@ -159,7 +295,7 @@ html, body{
 
 .data{
 	margin-top: 50px;
-	font-size: 40px;
+	font-size: 1em;
 	line-height: 1.5;
 	width: 80%;
 	margin-left: 50%;
@@ -169,18 +305,21 @@ html, body{
 
 #thirdBK{
 	padding: 10vw 0;
+	/*overflow: visible;*/
 }
 
 #cases{
 	text-align: center;
 	font-size: 86px;
 	margin-top: 0vw;
+	width: 100%;
 }
 
 .container{
 	width: 85vw;
 	height: 45vw;
 	margin:10vw auto 0px;
+	float: none;
 	/*background-color: red;*/
 }
 
