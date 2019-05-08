@@ -28,7 +28,7 @@ html, body{
 #subtitle{
 	/*position: absolute;*/
 	text-align: center;
-	font-size: 20px;
+	font-size: 1.5em;
 	margin: 10px 15%;
 	color: #264d73;
 }
@@ -74,6 +74,7 @@ html, body{
 	text-align: center;
 	color: #264d73;
 	margin-top: 20px;
+	font-size: 1.5em;
 	/*display: block;*/
 }
 
@@ -167,7 +168,7 @@ html, body{
 @media(min-width: 1200px){
 	.briefIntro{
 	
-	/*font-size: 22px;*/
+	font-size: 22px;
 	
 }
 .container{
@@ -190,6 +191,10 @@ html, body{
 
 .brief{
 	/*font-size: 32px;*/
+}
+
+.data{
+	font-size: 1em;
 }
 
 .linkImage{
@@ -218,12 +223,16 @@ html, body{
 }
 
 .name{
-	/*font-size: 26px;*/
+	font-size: 26px;
 
 }
 
+.data{
+	font-size: 1em;
+}
+
 .brief{
-	/*font-size: 38px;*/
+	font-size: 38px;
 }
 
 .linkImage{
@@ -232,7 +241,7 @@ html, body{
 
 .briefIntro{
 	
-	/*font-size: 26px;*/
+	font-size: 26px;
 	
 }
 
@@ -334,7 +343,7 @@ html, body{
 #box2{
 	display: inline-block;
 	position: absolute;
-	margin-left: 6%;
+	right: 5%;
 	margin-top: 0;
 	width: 41%;
 	height: 50vw;
